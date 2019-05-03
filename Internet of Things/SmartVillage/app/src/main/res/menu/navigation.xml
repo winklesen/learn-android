@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_lamp"
+        android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+        android:title="@string/title_lamp" />
+
+    <item
+        android:id="@+id/navigation_water"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_agriculture" />
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="@string/title_shop" />
+
+</menu>

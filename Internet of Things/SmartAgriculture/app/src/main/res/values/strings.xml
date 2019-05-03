@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Alirkan</string>
+    <string name="riwayat_siram">Riwayat siram</string>
+    <string name="pilih_tanggal">Pilih Tanggal Penyiraman</string>
+    <string name="kelambapan_tanah">Kelambaban Tanah</string>
+    <string name="waktu">Waktu</string>
+    <string name="kode_produksi">Kode Produksi</string>
+    <string name="masukan_kode_produksi">Masukan Kode Produksi</string>
+    <string name="tutup">tutup</string>
+    <string name="simpan">simpan</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="siram">Siram</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="select_date_button">Select Date Button</string>
+</resources>

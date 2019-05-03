@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/activity_vertical_margin"
+    android:paddingHorizontal="32dp"
+    tools:context=".Fragment.OptionDialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/masukan_kode_produksi" />
+
+    <EditText
+        android:id="@+id/edt_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kode_produksi"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_close"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0.5"
+            android:text="@string/tutup"
+            />
+
+        <Button
+            android:id="@+id/btn_save"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_weight="0.5"
+            android:text="@string/simpan"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

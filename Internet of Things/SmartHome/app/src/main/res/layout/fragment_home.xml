@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refresh_lamp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"
+        android:paddingVertical="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham_font"
+                android:text="@string/ruangan"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham_font"
+                android:text="@string/off_on"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/switch_lamp_teras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_font"
+                    android:paddingVertical="@dimen/activity_vertical_margin"
+                    android:text="@string/teras" />
+
+                <Switch
+                    android:id="@+id/switch_lamp_utama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_font"
+                    android:paddingVertical="@dimen/activity_vertical_margin"
+                    android:text="@string/ruang_utama" />
+
+                <Switch
+                    android:id="@+id/switch_lamp_tamu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_font"
+                    android:paddingVertical="@dimen/activity_vertical_margin"
+                    android:text="@string/ruang_tamu" />
+
+                <Switch
+                    android:id="@+id/switch_lamp_keluarga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_font"
+                    android:paddingVertical="@dimen/activity_vertical_margin"
+                    android:text="@string/ruang_keluarga" />
+
+                <Switch
+                    android:id="@+id/switch_lamp_dapur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_font"
+                    android:paddingVertical="@dimen/activity_vertical_margin"
+                    android:text="@string/dapur" />
+
+                <Switch
+                    android:id="@+id/switch_lamp_mandi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_font"
+                    android:paddingVertical="@dimen/activity_vertical_margin"
+                    android:text="@string/kamar_mandi" />
+
+                <Switch
+                    android:id="@+id/switch_lamp_anak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham_font"
+                    android:paddingVertical="@dimen/activity_vertical_margin"
+                    android:text="@string/lampu_kamar_anak" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

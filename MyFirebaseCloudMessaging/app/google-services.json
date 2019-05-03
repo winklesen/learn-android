@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "94235693051",
+    "firebase_url": "https://myfirebasecloudmessaging-91897.firebaseio.com",
+    "project_id": "myfirebasecloudmessaging-91897",
+    "storage_bucket": "myfirebasecloudmessaging-91897.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94235693051:android:1886a4d24b48b167",
+        "android_client_info": {
+          "package_name": "com.samuelbernard147.myfirebasecloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94235693051-mrm7p3o0ur52ddgjb9n62u53vb1qnqdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samuelbernard147.myfirebasecloudmessaging",
+            "certificate_hash": "2fb25a8d1833ecced82129a10f1a76922ebc7f1c"
+          }
+        },
+        {
+          "client_id": "94235693051-7hjn76masetrks5s3bpetu5qsf5s9e43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_JkbucpfbgqxFQ93hLSnXE_-NYUVpq2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94235693051-7hjn76masetrks5s3bpetu5qsf5s9e43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

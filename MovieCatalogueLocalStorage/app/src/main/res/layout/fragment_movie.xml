@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.MainMovieFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_movie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_movie_row" />
+
+    <ProgressBar
+        android:id="@+id/pb_movie"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+    <TextView
+        android:id="@+id/tv_loading_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textAlignment="center"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/pb_movie"/>
+
+</RelativeLayout>

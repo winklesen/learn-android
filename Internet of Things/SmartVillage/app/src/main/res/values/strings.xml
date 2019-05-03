@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmartVillage</string>
+    <string name="title_lamp">Lamp</string>
+    <string name="title_agriculture">Agriculture</string>
+    <string name="title_irigasi">Irrigation</string>
+    <string name="title_shop">Shop</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shop">Shop</string>
+    <string name="lamp">Lamp</string>
+    <string name="irrigation">Irrigation</string>
+    <string name="agriculture">Agriculture</string>
+    <string name="today">Today 22 April 2019</string>
+    <string name="street_lamp">Street Lamp</string>
+</resources>

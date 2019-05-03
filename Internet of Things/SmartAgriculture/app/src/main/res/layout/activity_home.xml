@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:baselineAligned="false"
+                    android:text="@string/selamat_datang"
+                    android:textAlignment="center"
+                    android:textSize="28sp" />
+
+                <!--Progress Bar-->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:indeterminate="false"
+                        android:max="600"
+                        android:progress="600"
+                        android:progressDrawable="@drawable/circle_progress_background" />
+
+                    <ProgressBar
+                        android:id="@+id/circle_progress_bar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:indeterminate="false"
+                        android:max="600"
+                        android:progressDrawable="@drawable/circle_progress_foreground"
+                        android:rotation="-90" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_jmlsiram"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0x penyiraman"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kelembaban"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_jmlkelembaban"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0%"
+                            android:textAlignment="center"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <!--Button untuk pindah ke riwayat-->
+                <Button
+                    android:id="@+id/btn_riwayat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="56dp"
+                    android:background="@drawable/roundedbtn"
+                    android:text="@string/riwayat"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!-- Adding bottom sheet after main content -->
+    <include layout="@layout/bottom_sheet" />
+
+</android.support.design.widget.CoordinatorLayout>

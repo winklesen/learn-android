@@ -1,0 +1,283 @@
+<resources>
+    <!--Indonesia-->
+    <string name="app_name">MovieCatalogue(UI/UX)</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tvshow">Acara Tv</string>
+    <string name="change_language_settings">Pengaturan Bahasa</string>
+    <string name="title">Judul</string>
+    <string name="desc">Deskripsi</string>
+    <string name="poster">Poster</string>
+    <string name="choose_language">Pilih Bahasa</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="choose">Pilih</string>
+    <string name="minute">%1$d Menit</string>
+    <string name="director">Direktur</string>
+    <string name="writer">Penulis</string>
+    <string name="star">Pemeran</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="overview">Ikhtisar</string>
+
+    <!--Movie-->
+    <string-array name="movie_title">
+        <item>Aquaman</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Creed II</item>
+        <item>Glass</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>How to Train Your Dragon: The Hidden World</item>
+        <item>Alita: Battle Angel </item>
+        <item>A Star Is Born </item>
+        <item>Fantastic Beasts: The Kejahatans of Grindelwald</item>
+        <item>Master Z: Ip Man Legacy</item>
+    </string-array>
+
+    <string-array name="movie_description">
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, kota Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Aquaman, Orms setengah manusia, setengah saudara Atlantis dan pewaris sejati takhta. Dengan bantuan dari penasihat kerajaan Vulko, Aquaman harus mengambil Trident Atlan yang legendaris dan merangkul takdirnya sebagai pelindung laut.</item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris bass John Deacon membawa dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup yang semakin liar Mercurys mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya namun menemukan cara untuk menjaga band bersama di tengah kesuksesan dan kelebihan.</item>
+        <item>Mengikuti Adonis Mengaku kehidupan di dalam dan di luar ring ketika ia berurusan dengan ketenaran yang baru ditemukan, masalah dengan keluarganya, dan usahanya yang berkelanjutan untuk menjadi juara.</item>
+        <item>Dalam serangkaian pertemuan yang meningkat, penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya.</item>
+        <item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi pria laba-laba. Ketika Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seberang Spider Verse diangkut ke dimensi ini.</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless dari pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Ketika bahaya memuncak di rumah dan cegukan berkuasa saat kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka..</item>
+        <item>Ketika Alita terbangun tanpa ingatan tentang siapa dia di dunia masa depan yang tidak dia kenal, dia dibawa oleh Ido, seorang dokter yang penuh kasih yang menyadari bahwa di suatu tempat di cangkang cyborg yang ditinggalkan ini adalah hati dan jiwa seorang wanita muda dengan luar biasa. lalu.</item>
+        <item>Musisi kawakan, Jackson Maine, menemukan dan jatuh cinta pada artis yang sedang berjuang, Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karir Allys lepas landas, sisi pribadi dari hubungan mereka hancur, karena Jack berjuang terus-menerus dengan setan internalnya sendiri.</item>
+        <item>Gellert Grindelwald telah lolos dari penjara dan telah mulai mengumpulkan pengikut dengan alasannya meningkatkan penyihir di atas semua makhluk non magis. Satu-satunya yang mampu menghentikannya adalah penyihir yang pernah ia sebut teman terdekatnya, Albus Dumbledore. Namun, Dumbledore perlu mencari bantuan dari penyihir yang pernah menggagalkan Grindelwald sebelumnya, mantan muridnya Newt Scamander, yang setuju untuk membantu, tidak menyadari bahaya yang ada di depan. Garis ditarik ketika cinta dan kesetiaan diuji, bahkan di antara teman dan keluarga yang paling sejati, dalam dunia sihir yang semakin terpecah.</item>
+        <item>Setelah dikalahkan oleh Ip Man, Cheung Tin Chi berusaha untuk tetap low profile. Saat menjalankan bisnisnya, ia berkelahi dengan orang asing bernama Davidson, yang merupakan bos besar di belakang bar distrik. Tin Chi berjuang keras dengan Wing Chun dan mendapatkan rasa hormat.</item>
+    </string-array>
+
+    <string-array name="movie_release_date">
+        <item>Desember 21, 2018</item>
+        <item>Oktober 30, 2018</item>
+        <item>November 14, 2018</item>
+        <item>Januari 18, 2019</item>
+        <item>Desember 14, 2018</item>
+        <item>Februari 22, 2019</item>
+        <item>Februari 14, 2019</item>
+        <item>Oktober 5, 2018</item>
+        <item>November 16, 2018</item>
+        <item>April 12, 2019</item>
+    </string-array>
+
+    <string-array name="movie_poster">
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_how_to_train</item>
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_a_start_is_born</item>
+        <item>@drawable/poster_crimes</item>
+        <item>@drawable/poster_master_z</item>
+    </string-array>
+
+    <integer-array name="movie_duration">
+        <item>143</item>
+        <item>135</item>
+        <item>130</item>
+        <item>129</item>
+        <item>117</item>
+        <item>104</item>
+        <item>122</item>
+        <item>135</item>
+        <item>134</item>
+        <item>107</item>
+    </integer-array>
+
+    <string-array name="movie_rating">
+        <item>PG-13</item>
+        <item>PG-13</item>
+        <item>PG-13</item>
+        <item>PG-13</item>
+        <item>PG-13</item>
+        <item>PG</item>
+        <item>PG-13</item>
+        <item>R</item>
+        <item>PG-13</item>
+        <item>NR</item>
+    </string-array>
+
+    <string-array name="movie_genre">
+        <item>Aksi | Petualangan | Fantasi</item>
+        <item>Drama | Musik</item>
+        <item>Drama</item>
+        <item>Thriller | Misteri | Drama</item>
+        <item>Aksi | Petualangan | Animasi</item>
+        <item>Animasi | Keluarga | Petualangan</item>
+        <item>Aksi | Fiksi Ilmiah | Thriller</item>
+        <item>Drama | Musik | Romantis</item>
+        <item>Keluarga  | Fantasi | Petualangan</item>
+        <item>Aksi</item>
+    </string-array>
+
+    <string-array name="movie_writer">
+        <item>James Wan, Geoff Johns</item>
+        <item>Anthony McCarten, Peter Morgan, Anthony McCarten</item>
+        <item>Sylvester Stallone, Cheo Hodari Coker</item>
+        <item>M. Night Shyamalan</item>
+        <item>Stan Lee, Steve Ditko, Phil Lord</item>
+        <item>Dean DeBlois</item>
+        <item>James Cameron</item>
+        <item>Bradley Cooper, William A. Wellman</item>
+        <item>J.K. Rowling</item>
+        <item>Edmond Wong, Chan Tai-Li</item>
+    </string-array>
+
+    <string-array name="movie_director">
+        <item>James Wan</item>
+        <item>Bryan Singer</item>
+        <item>Steven Caple Jr.</item>
+        <item>M. Night Shyamalan</item>
+        <item>Peter Ramsey</item>
+        <item>Dean DeBlois</item>
+        <item>Robert Rodriguez</item>
+        <item>Bradley Cooper</item>
+        <item>David Yates</item>
+        <item>Yuen Woo-ping</item>
+    </string-array>
+
+    <string-array name="movie_star">
+        <item>Jason Momoa, Amber Heard, Nicole Kidman, Willem Dafoe, Patrick Wilson</item>
+        <item>Rami Malek, Gwilym Lee, Ben Hardy, Joseph Mazzello, Lucy Boynton</item>
+        <item>Michael B. Jordan, Sylvester Stallone, Wood Harris, Phylicia Rashād</item>
+        <item>James McAvoy, Bruce Willis, Samuel L. Jackson, Anya Taylor-Joy</item>
+        <item>Shameik Moore, Jake Johnson, Hailee Steinfeld, Mahershala Ali</item>
+        <item>Jay Baruchel, America Ferrera, F. Murray Abraham, Cate Blanchett, Gerard Butler</item>
+        <item>Rosa Salazar, Christoph Waltz, Mahershala Ali, Keean Johnson, Jennifer Connelly</item>
+        <item>Bradley Cooper, Lady Gaga, Sam Elliott, Andrew Dice Clay, Dave Chappelle</item>
+        <item>Eddie Redmayne, Johnny Depp, Katherine Waterston, Alison Sudol</item>
+        <item>Zhang Jin, Dave Bautista, Liu Yan, Xing Yu, Michelle Yeoh</item>
+    </string-array>
+
+    <!--Tv Show-->
+    <string-array name="tv_title">
+        <item>Fairy Tail</item>
+        <item>The Walking Dead</item>
+        <item>Arrow</item>
+        <item>Doom Patrol</item>
+        <item>The Flash</item>
+        <item>Naruto Shippūden</item>
+        <item>The Simpsons</item>
+        <item>Dragon Ball</item>
+        <item>Game of Thrones</item>
+        <item>Keluarga  Guy</item>
+    </string-array>
+
+    <string-array name="tv_description">
+        <item>Lucy adalah seorang gadis berusia 17 tahun, yang ingin menjadi penyihir penuh. Suatu hari ketika mengunjungi Kota Harujion, dia bertemu Natsu, seorang pemuda yang mudah sakit karena segala jenis transportasi. Tapi Natsu bukan hanya anak biasa, dia anggota dari salah satu serikat penyihir paling terkenal di dunia: Fairy Tail.</item>
+        <item>Wakil Sheriff Rick Grimes terbangun dari koma untuk menemukan dunia pasca-apokaliptik yang diminta oleh zombie pemakan daging. Dia pergi untuk menemukan Lebih mahal dan bertemu banyak penyintas lainnya di sepanjang jalan.</item>
+        <item>Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas ketika kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur.</item>
+        <item>Anggota Patroli Doom masing-masing mengalami kecelakaan mengerikan yang memberi mereka kemampuan manusia super tetapi juga membuat mereka menjadi cacat dan cacat. Trauma dan tertindas, tim menemukan tujuan melalui Ketua, yang menyatukan mereka untuk menyelidiki fenomena paling aneh yang ada dan untuk melindungi Bumi dari apa yang mereka temukan.</item>
+        <item>Setelah akselerator partikel menyebabkan badai aneh, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia terbangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya senang dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya "manusia meta" yang diciptakan setelah ledakan akselerator dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat yang hidup, tetapi itu tidak akan lama sebelum dunia mengetahui apa yang menjadi Barry Allen sebagai The Flash.</item>
+        <item>Naruto Shippuuden adalah kelanjutan dari serial TV animasi asli Naruto. Kisah ini berkisah tentang Uzumaki Naruto yang lebih tua dan sedikit lebih matang dan upayanya untuk menyelamatkan temannya Uchiha Sasuke dari genggaman Shinobi seperti ular, Orochimaru. Setelah 2 setengah tahun, Naruto akhirnya kembali ke desanya Konoha, dan mulai ambisinya, meskipun itu tidak akan mudah, karena Ia telah mengumpulkan beberapa musuh (lebih berbahaya), seperti organisasi shinobi. ; Akatsuki.</item>
+        <item>Bertempat di Springfield, kota rata-rata di Amerika, acara ini berfokus pada kejenakaan dan Petualangan sehari-hari keluarga Simpson; Homer, Marge, Bart, Lisa dan Maggie, serta ribuan pemain virtual. Sejak awal, serial ini telah menjadi ikon budaya pop, menarik ratusan selebriti menjadi bintang tamu. Pertunjukan ini juga menjadi terkenal karena satirnya yang tak kenal takut terhadap politik, media, dan kehidupan Amerika secara umum.</item>
+        <item>Dahulu kala di pegunungan, seorang master pertempuran yang dikenal sebagai Gohan menemukan seorang bocah aneh yang ia beri nama Goku. Gohan membesarkannya dan melatih Goku dalam seni bela diri sampai dia mati. Bocah muda dan sangat kuat itu sendirian, tetapi mudah dikelola. Kemudian suatu hari, Goku bertemu dengan seorang gadis remaja bernama Bulma, yang pencariannya untuk bola naga membawanya ke rumah Gokus. Bersama-sama, mereka berangkat untuk menemukan ketujuh bola naga di Petualangan yang akan mengubah hidup Gokus selamanya. Lihat bagaimana Goku bertemu teman-teman seumur hidupnya Bulma, Yamcha, Krillin, Master Roshi dan banyak lagi. Dan lihat Petualangannya sebagai anak laki-laki, semuanya mengarah ke Dragonball Z dan kemudian Dragonball GT.</item>
+        <item>Tujuh keluarga bangsawan berjuang untuk menguasai tanah mitos Westeros. Gesekan antara rumah-rumah mengarah ke perang skala penuh. Semua sementara kejahatan yang sangat kuno terbangun di utara terjauh. Di tengah-tengah perang, perintah militer yang diabaikan, Nights Watch, adalah yang berdiri di antara alam manusia dan kengerian es di luarnya.</item>
+        <item>Serial animasi Freakin Sweet yang sakit, terpelintir, tidak benar secara politis, dan menampilkan Petualangan dari Griffin Keluarga yang disfungsional. Peter yang kikuk dan Lois yang sudah lama menderita memiliki tiga anak. Stewie (bayi yang brilian tetapi sadis yang bertekad membunuh ibunya dan mengambil alih dunia), Meg (yang tertua, dan adalah gadis yang paling tidak populer di kota) dan Chris (anak tengah, dia tidak terlalu cerdas tetapi memiliki hasrat untuk film) ). Anggota terakhir Keluarga adalah Brian - seekor anjing yang bisa bicara dan lebih dari sekadar hewan peliharaan, ia menjaga Stewie dalam pengawasan sambil menyeruput Martinis dan memilah-milah masalah hidupnya sendiri.</item>
+    </string-array>
+
+    <string-array name="tv_release_date">
+        <item>Oktober 7, 2018</item>
+        <item>Oktober 7, 2018</item>
+        <item>Oktober 15, 2018</item>
+        <item>Februari 2019 </item>
+        <item>Oktober 9, 2018.</item>
+        <item>2007</item>
+        <item>September 30, 2018</item>
+        <item>Februari 26, 1986</item>
+        <item>April 14, 2019</item>
+        <item>September 30, 2018.</item>
+    </string-array>
+
+    <string-array name="tv_poster">
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_the_walking_dead</item>
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_dragon_ball</item>
+        <item>@drawable/poster_god</item>
+        <item>@drawable/poster_family_guy</item>
+    </string-array>
+
+    <integer-array name="tv_duration">
+        <item>25</item>
+        <item>60</item>
+        <item>42</item>
+        <item>60</item>
+        <item>44</item>
+        <item>22</item>
+        <item>22</item>
+        <item>25</item>
+        <item>60</item>
+        <item>22</item>
+    </integer-array>
+
+    <string-array name="tv_rating">
+        <item>TV-14</item>
+        <item>TV-MA</item>
+        <item>TV-14</item>
+        <item>PG-13</item>
+        <item>TV-PG</item>
+        <item>TV-14</item>
+        <item>TV-PG</item>
+        <item>TV-PG</item>
+        <item>TV-MA</item>
+        <item>TV-14</item>
+    </string-array>
+
+    <string-array name="tv_genre">
+        <item>Aksi | Petualangan</item>
+        <item>Aksi | Petualangan</item>
+        <item>Aksi | Kejahatan | Drama|</item>
+        <item>Aksi | Sci-Fi | Fantasi</item>
+        <item>Drama | Sci-Fi | Fantasi</item>
+        <item>Animasi | Comedy| Drama</item>
+        <item>Animasi | Comedy</item>
+        <item>Comedy | Sci-Fi | Fantasi</item>
+        <item>Drama | Aksi | Petualangan</item>
+        <item>Animasi | Comedy</item>
+    </string-array>
+
+    <string-array name="tv_writer">
+        <item>Hiro Mashima, Masashi Sogo</item>
+        <item>Charlie Adlard</item>
+        <item>Greg Berlanti, Marc Guggenheim, Andrew Kreisberg</item>
+        <item>Jeremy Carver</item>
+        <item>Greg Berlanti, Geoff Johns</item>
+        <item>Masashi Kishimoto, Satoru Nishizono</item>
+        <item>James L. Brooks, Matt Groening</item>
+        <item>Joel Bergen, Neil Bligh</item>
+        <item>David Benioff, George R.R. Martin</item>
+        <item>Seth MacFarlane, David Zuckerman</item>
+
+    </string-array>
+
+    <string-array name="tv_director">
+        <item>Shinji Ishihira</item>
+        <item>Greg Nicotero</item>
+        <item>James Bamford</item>
+        <item>Dermott Downs</item>
+        <item>David McWhirter, Dermott Downs</item>
+        <item>Hayato Date, Kiyomu Fukuda</item>
+        <item>Mike B. Anderson, Mark Kirkland</item>
+        <item>Minoru Okazaki, Daisuke Nishio</item>
+        <item>David Nutter, Alan Taylor</item>
+        <item>James Purdum, Peter Shin</item>
+    </string-array>
+
+    <string-array name="tv_star">
+        <item>Todd Haberkorn, Tetsuya Kakihara, Aya Hirano</item>
+        <item>Andrew Lincoln, Norman Reedus, Lauren Cohan</item>
+        <item>Stephen Amell, Emily Bett Rickards, David Ramsey</item>
+        <item>Timothy Dalton, April Bowlby, Diane Guerrero, Matt Bomer</item>
+        <item>Grant Gustin, Candice Patton, Carlos Valdes</item>
+        <item>Junko Takeuchi, Chie Nakamura, Kazuhiko Inoue</item>
+        <item>Dan Castellaneta, Julie Kavner, Nancy Cartwright, Yeardley Smith</item>
+        <item>Masako Nozawa, Mayumi Tanaka, Hiromi Tsuru, Tōru Furuya</item>
+        <item>Emilia Clarke, Kit Harington, Peter Dinklage, Lena Headey</item>
+        <item>Seth MacFarlane, Alex Borstein, Mila Kunis, Seth Green</item>
+    </string-array>
+</resources>

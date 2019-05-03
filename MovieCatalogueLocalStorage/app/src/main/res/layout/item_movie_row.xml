@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardBackgroundColor="#eaeaea"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="4dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_poster"
+                android:layout_width="75dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/poster"
+                android:scaleType="fitXY"
+                android:src="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/TextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_toEndOf="@id/img_poster"
+                android:layout_toRightOf="@id/img_poster"
+                android:text="@string/title" />
+
+            <TextView
+                android:id="@+id/tv_desc"
+                style="@style/TextDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/img_poster"
+                android:layout_toRightOf="@id/img_poster"
+                android:maxLines="2"
+                android:text="@string/desc" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<!--Bahasa Inggris-->
+<resources>
+    <string name="app_name">MovieCatalogue(API)</string>
+
+    <!--Settings-->
+    <string name="change_language_settings">Language Settings</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="choose">Choose</string>
+
+    <!--TabFragment Title-->
+    <string name="movie_title">MOVIE</string>
+    <string name="tv_title">TV SHOW</string>
+
+    <!--Item-->
+    <string name="title">Title</string>
+    <string name="desc">Description</string>
+    <string name="poster">Poster</string>
+
+    <!--Detail-->
+    <string name="minute">%1$s Minute</string>
+    <string name="original_language">Original Language</string>
+    <string name="release_date">Release Date</string>
+    <string name="overview">Overview</string>
+    <string name="runtime">Runtime</string>
+    <string name="fail">Failed to load</string>
+</resources>
