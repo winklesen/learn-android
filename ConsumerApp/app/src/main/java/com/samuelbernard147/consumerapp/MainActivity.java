@@ -43,12 +43,15 @@ public class MainActivity extends AppCompatActivity implements LoadNotesCallback
         rvNotes.setLayoutManager(new LinearLayoutManager(this));
         rvNotes.setHasFixedSize(true);
         rvNotes.setAdapter(consumerAdapter);
+//
         HandlerThread handlerThread = new HandlerThread("DataObserver");
         handlerThread.start();
         Handler handler = new Handler(handlerThread.getLooper());
         myObserver = new DataObserver(handler, this);
         getContentResolver().registerContentObserver(CONTENT_URI, true, myObserver);
         new getData(this, this).execute();
+
+//
     }
 
     @Override
@@ -117,4 +120,3 @@ public class MainActivity extends AppCompatActivity implements LoadNotesCallback
         }
     }
 }
-

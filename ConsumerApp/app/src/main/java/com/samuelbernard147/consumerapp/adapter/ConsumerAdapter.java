@@ -20,7 +20,6 @@ import java.util.ArrayList;
 import static com.samuelbernard147.consumerapp.db.DatabaseContract.NoteColumns.CONTENT_URI;
 
 public class ConsumerAdapter extends RecyclerView.Adapter<ConsumerAdapter.NoteViewHolder> {
-
     private final ArrayList<NoteItem> listNotes = new ArrayList<>();
     private final Activity activity;
 

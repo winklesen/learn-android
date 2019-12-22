@@ -12,6 +12,7 @@ import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -31,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     private int maxNotif = 2;
 
     private List<NotificationItem> stackNotif = new ArrayList<>();
-
     private final static int NOTIF_REQUEST_CODE = 200;
 
     @Override
@@ -78,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, NOTIF_REQUEST_CODE, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-
 
         NotificationCompat.Builder mBuilder;
 
