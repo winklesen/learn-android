@@ -1,4 +1,7 @@
 ![Android logo](https://upload.wikimedia.org/wikipedia/commons/3/3b/Android_new_logo_2019.svg)
+ 
+---
+
 This is some of my __Android development__ training project.
 ### Reference
 1. [Android Developer](https://developer.android.com/ "Android Developer")
